@@ -5,7 +5,7 @@
 
 在`emcc`构建时使用 `--pre-js ./dist/wechatfs.js`引入或者在粘贴到`emscripten`构建后的模块代码前面
 
-构建时选项`-sENVIRONMENT=node -sNO_DYNAMIC_EXECTION -lnodefs.js`
+构建时选项`-sENVIRONMENT=node -sNO_DYNAMIC_EXECUTION -lnodefs.js`
 
 ```bash
 # 为emscripten添加适配
